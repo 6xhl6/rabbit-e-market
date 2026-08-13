@@ -20,22 +20,14 @@
 
 1. 安装依赖
 
-```shell
-# npm
-npm i --registry=https://registry.npmmirror.com
-
-# pnpm
-pnpm i --registry=https://registry.npmmirror.com
-```
-
 2. 运行程序
 
 ```shell
 # 微信小程序端
-npm run dev:mp-weixin
+pnpm run dev:mp-weixin
 
 # H5端
-npm run dev:h5
+pnpm run dev:h5
 
 # App端
 需 HbuilderX 工具，运行 - 运行到手机或模拟器
